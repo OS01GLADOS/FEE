@@ -245,7 +245,7 @@ header {
     flex-flow:column;
 	justify-content:center;
 }
-.blockItemsGrid h4 {
+h4 {
 	font-size: 300%;
 }
 .blockItemsGrid a{
@@ -273,4 +273,98 @@ header {
 	height: 300px;
 	width: 380px;
 	background-color: #c3d0d8;
+}
+
+.blockContactUs{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 4%;
+	margin-top: 15%;
+	display: flex;
+	flex-flow: column;
+	justify-self: flex-end;
+}
+.blockContactUs p{
+	margin-bottom: 0%;
+	color: #ff3946;
+}
+.blockContactUs h4{
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+.blockContactUs form{
+	display: flex;
+	flex-flow: column;
+	
+}
+.blockContactUs form div{
+	display: flex;
+	flex-flow: row;
+}
+.blockContactUs form div input{
+	width: 100%;
+}
+.blockContactUs form div input:first-child{
+	margin-right: 2%;
+}
+.formTextarea{
+	resize: none;
+	margin-bottom: 2%;
+	height: 60px;
+}
+.blockContactUs form div{
+	margin-bottom: 2%;
+}
+.blockContactUsTextField{
+	background-color: #f4fafe;
+	border: none;
+	padding: 10px;
+	color:  #314584;
+	font-family: inherit;
+	font-size: 70%;
+	font-weight: bold;
+	
+}
+.blockContactUsTextField::-webkit-input-placeholder { color: #314584; }
+.blockContactUsTextField::-moz-placeholder { color: #314584; }
+.blockContactUs .redAndWhiteButton{
+	align-self:center;
+}
+
+footer{
+	margin:0px -8px -8px -8px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #314584;
+	color: white;
+}
+footer p{
+	margin-top: 3%;
+}
+footer h1{
+	margin-top: 12px;
+	color: #ff3946;
+}
+.footerMenu{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	display: flex;
+	justify-content:space-between;
+	width: 30%;
+}
+.footerMenu a{
+	text-decoration: none;
+	color: white;
+}
+.footerMenu a:hover{
+	color: #ff3946;
+}
+.footerSocialNetworksLinks{
+	margin-top: 12px;
+	margin-bottom: 3%;
+	display: flex;
+	justify-content:space-between;
+	width: 20%;
 }
