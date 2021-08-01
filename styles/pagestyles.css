@@ -1,13 +1,14 @@
 @media (max-width: 768px){
-	.slider{
-		display: none !important;
-	}
+
 	.blockMainText{
 		width: 100% !important;
 	}
+	.footerMenu,
+	.slider,
 	header{
 		display: none !important;
 	}
+
 	.hamburger-menu{
 		display: block !important;
 	}
